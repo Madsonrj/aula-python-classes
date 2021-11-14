@@ -1,0 +1,60 @@
+Programaçao Orientada a Objetos
+
+. métodos de programaçao (paradigma)que usa tipos
+  de dados personalizadsos.
+
+. Em vez de operar apenas com tipos de dados
+  primitivos,podemos construir novos tipos de
+  dados.
+
+
+                       
+
+
+              
+                    Vantagens da o o
+.Fornece uma estrutura modular para construçao
+ de progamas
+.O software se torna mais fácil  de manter
+. Reuso do código -> desenvolvimento mais ràpido
+. Objetos podem ser reutilizados em apliaçoes
+  diferentes
+            .Encapsulamento:não é necessário
+             conhecer a implementaçao interna de
+             um objeto para usá-lo
+
+
+                          Classes
+.Representam  ideias ou conceitos,classificando
+ entidades que tenhan propiedades simililares.
+.Blocos de construçao mais importantes em sistemas
+ OO,com responsabilidades bem definidas dentro da
+ aplicação.
+. Deefinen objetos que possuem os mesmos atributos e
+  operações
+.Tipo personalizado de dados,"molde"
+ para a criação de objetos.
+  
+
+
+
+
+                     Definir uma classe
+Palarva-chave class:
+class NomeClasse:#cabeçalho da classe
+  pass #classe sem nenhuma funçao(ainda)
+
+print (type(NomeClasse ))   
+
+
+
+                  Definir uma classe
+Especificando membros:
+
+class NomeClasse:
+'''docstring (opcional)'''
+dado = valor #dado de classe compartilhado (atributo de classe) 
+def metodo_construtor # método construto
+    código método construtor
+    def  método(self,...)#método geral
+    self.mmembro = valor # dado de instancia ('self')
